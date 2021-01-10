@@ -1,23 +1,24 @@
-# right-trim
+# left-trim
 
-Removes whitespace on the right. Build with __nan__.
+Removes whitespace on the left. Build with __nan__.
 
 ## Install 
 
 ```sh
 
 # With npm 
-npm i right-trim 
+npm i left-trim 
 
 ```
 
 ## How to use 
+
 ```js 
 
-const rightTrim = require('right-trim');
+const leftTrim = require('left-trim');
 
-rightTrim('   pizza   ') // ~> '  pizza'
-rightTrim('hello world    ') // ~> 'hello world'
+leftTrim('   pizza   ') // ~> 'pizza   '
+leftTrim('   hello world') // ~> 'hello world'
 
 ```
 
